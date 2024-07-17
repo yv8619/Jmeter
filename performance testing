@@ -1,0 +1,59 @@
+types :
+# Load testing - To determine how a system performs under expected normal and peak load conditions. 
+If you expect 10,000 users to use your e-commerce site simultaneously during a sale, load testing will simulate this scenario to ensure the site performs well.
+
+Key Characteristics:
+Simulates multiple users accessing the system simultaneously.
+Helps identify performance bottlenecks.
+Ensures the system can handle anticipated user load without degradation of performance.
+
+# stress testing - To evaluate how a system behaves under extreme load conditions beyond its normal operational capacity.
+Pushing the e-commerce site beyond 10,000 users to find out at what point it crashes or becomes unusable.
+
+Key Characteristics:
+Determines the system's breaking point.
+Identifies how the system fails and recovers from failures.
+Helps ensure robustness and stability.
+
+# endurance testing - To determine how a system performs over an extended period under a significant load.
+Running the e-commerce site under normal peak load for 24 hours to ensure it doesn't slow down or crash over time.
+
+Key Characteristics:
+Identifies issues like memory leaks or resource leaks.
+Ensures the system can sustain the load for a prolonged period without degradation.
+Checks for long-term reliability and performance stability.
+
+
+# spike testing - To evaluate how a system handles sudden, sharp increases in load.
+Simulating a sudden influx of users (e.g., 20,000 users logging in within a few minutes) to see how the e-commerce site copes with the sudden load.
+
+Key Characteristics:
+Simulates unexpected and significant spikes in user load.
+Determines if the system can handle rapid load increases and return to normal performance afterward.
+Ensures stability and responsiveness during sudden spikes.
+
+
+# volume testing - To assess the system's performance when handling a large volume of data.
+Testing the database of the e-commerce site with millions of transactions to ensure it can handle large data volumes efficiently.
+
+Key Characteristics:
+Focuses on the system's ability to process and manage large data sets.
+Ensures database performance and data handling capabilities.
+Identifies performance issues related to data volume, such as slow queries or data retrieval problems.
+
+performance bottlenecks:
+-----------------------
+CPU utilization
+memory utilization
+network utilization
+OS limitation
+Disk usage
+
+Apache JMETER
+-------------
+A performance testing tool built on java. Can be used for web application, api testing, db server.
+platform independent. supports multi protocol.
+
+
+
+
